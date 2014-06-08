@@ -74,6 +74,7 @@ In our previous example we handled a JSON request, but replied with a `text/plai
 ```java
 import play.libs.Json;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 ...
 
 @BodyParser.Of(BodyParser.Json.class)
